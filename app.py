@@ -35,7 +35,6 @@ def main():
                 st.write(f"**Title:** {title}")
                 st.write(f"**Thumbnail URL:** {thumb}")
 
-                # Optional: Remove the JSON metadata file after downloading the music
                 for json_file in json_files:
                     try:
                         os.remove(json_file)
